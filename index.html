@@ -16,41 +16,44 @@
 // c. Навигационные точки (индикаторы) для быстрого переключения между изображениями.
 
 // 2. Используйте HTML для создания элементов интерфейса. -->
-
-    <div class="slider">
-      <ul class="slider__list">
-        <li class="slider__item item-1 slide__active">
-          <img
-            src="https://img.freepik.com/free-photo/pug-dog-isolated-white-background_2829-11416.jpg?t=st=1724487333~exp=1724490933~hmac=a16b9bb04e249e4bdbe326c706ee80448c545f2eee86f5ac88509e8eedae6c3e&w=1380"
-            alt="puppy"
-          />
-        </li>
-        <li class="slider__item item-2">
-          <img
-            src="https://img.freepik.com/free-photo/cute-spitz_144627-7076.jpg?t=st=1724486749~exp=1724490349~hmac=7e0a344654a6862c1eeac58119ec188f53f1682c425268ae43569b42a2b129a5&w=1380"
-            alt="puppy"
-          />
-        </li>
-        <li class="slider__item item-3">
-          <img
-            src="https://img.freepik.com/free-psd/cute-brown-white-dog-scene_23-2150179279.jpg?t=st=1724487392~exp=1724490992~hmac=a3ed9212ef3e9ea3cbcf0d276137165bf2777d8df18d7c36ecd2a0ba7a59f040&w=826"
-            alt="puppy"
-          />
-        </li>
-        <li class="slider__item item-4">
-          <img
-            src="https://img.freepik.com/premium-photo/front-view-american-cocker-spaniel-puppy-sitting-isolated-white_191971-16610.jpg?w=1380"
-            alt="puppy"
-          />
-        </li>
-      </ul>
-      <button class="button-prev" type="button">Предыдущее изображение</button>
-      <button class="button-next" type="button">Следующее изображение</button>
-      <div class="pagination">
-        <button class="pagination-1"></button>
-        <button class="pagination-2"></button>
-        <button class="pagination-3"></button>
-        <button class="pagination-4"></button>
+    <div class="body__inner">
+      <div class="slider">
+        <h1>Enjoy puppy-watching!</h1>
+        <ul class="slider__list">
+          <li class="slider__item item-1 slide__active" data-slide="1">
+            <img
+              src="https://img.freepik.com/free-photo/pug-dog-isolated-white-background_2829-11416.jpg?t=st=1724487333~exp=1724490933~hmac=a16b9bb04e249e4bdbe326c706ee80448c545f2eee86f5ac88509e8eedae6c3e&w=1380"
+              alt="puppy"
+            />
+          </li>
+          <li class="slider__item item-2" data-slide="2">
+            <img
+              src="https://img.freepik.com/free-photo/cute-spitz_144627-7076.jpg?t=st=1724486749~exp=1724490349~hmac=7e0a344654a6862c1eeac58119ec188f53f1682c425268ae43569b42a2b129a5&w=1380"
+              alt="puppy"
+            />
+          </li>
+          <li class="slider__item item-3" data-slide="3">
+            <img
+              width="400px"
+              src="https://img.freepik.com/free-psd/cute-brown-white-dog-scene_23-2150179279.jpg?t=st=1724487392~exp=1724490992~hmac=a3ed9212ef3e9ea3cbcf0d276137165bf2777d8df18d7c36ecd2a0ba7a59f040&w=826"
+              alt="puppy"
+            />
+          </li>
+          <li class="slider__item item-4" data-slide="4">
+            <img
+              src="https://img.freepik.com/premium-photo/front-view-american-cocker-spaniel-puppy-sitting-isolated-white_191971-16610.jpg?w=1380"
+              alt="puppy"
+            />
+          </li>
+        </ul>
+        <button class="button-prev button" type="button">Previous image</button>
+        <button class="button-next button" type="button">Next image</button>
+        <div class="pagination-box">
+          <button data-pagination="1" class="pagination"></button>
+          <button data-pagination="2" class="pagination"></button>
+          <button data-pagination="3" class="pagination"></button>
+          <button data-pagination="4" class="pagination"></button>
+        </div>
       </div>
     </div>
 

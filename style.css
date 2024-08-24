@@ -1,11 +1,20 @@
 li img {
   width: 500px;
-  height: 600px;
+  height: 500px;
+}
+
+.body__inner {
+  padding: 150px 30px 50px;
+}
+
+.slider {
+  position: relative;
 }
 
 .slider__list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .slider__item {
@@ -14,4 +23,55 @@ li img {
 
 .slide__active {
   display: block;
+}
+
+.pagination {
+  border-radius: 50%;
+  border-color: #633597;
+  background-color: #ddd0ec;
+  cursor: pointer;
+}
+
+.pagination-box {
+  text-align: center;
+}
+
+.pagination::before {
+  content: url(./paw-solid.svg);
+  width: 25px;
+  height: 25px;
+}
+
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 124px;
+  font-size: 40px;
+  text-align: center;
+  color: #2b056e;
+}
+
+.button {
+  position: absolute;
+  padding: 15px;
+  border-radius: 26px;
+  border-color: #633597;
+  background-color: #ddd0ec;
+  color: #633597;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button-next {
+  top: 55%;
+  right: 10%;
+}
+
+.button-prev {
+  top: 55%;
+  left: 10%;
+}
+
+.item-3 img {
+  width: 400px;
 }
