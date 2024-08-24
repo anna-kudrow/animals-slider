@@ -1,0 +1,17 @@
+li img {
+  width: 500px;
+  height: 600px;
+}
+
+.slider__list {
+  display: flex;
+  justify-content: center;
+}
+
+.slider__item {
+  display: none;
+}
+
+.slide__active {
+  display: block;
+}
